@@ -1,3 +1,5 @@
 # Breeze
 
-Its a weather app by using ReactJs and open weather map API's
+Its a weather app by using ReactJs and weather API's
+Styling by using Tailwind css
+
