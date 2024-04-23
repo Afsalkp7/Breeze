@@ -1,7 +1,11 @@
 import React from 'react'
-
+// import { CloudFootImage } from './Images'
+// import {CloudFooterImage} from '../assets/images/imageUrls'
 export default function DetailDiv() {
   return (
-    <div className='bg-white h-screen'>DetailDiv</div>
+    <div>
+      jw
+      {/* <CloudFootImage url={CloudFooterImage}/> */}
+    </div>
   )
 }

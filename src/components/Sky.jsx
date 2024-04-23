@@ -5,11 +5,12 @@ import FirstBar from './FirstBar'
 
 export default function Sky() {
   return (
-    <div className='bg-sky-200 h-screen'>
+    <div className='relative'>
         <Images  url={cloud}/>
         <FirstBar />
         <CloudImage url={cloud} />
         <SunImage url={sun} />
+        <GirlImage url={girl} />
     </div>
   )
 }

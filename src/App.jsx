@@ -5,9 +5,13 @@ import Sky from './components/Sky'
 function App() {
 
   return (
-    <div>
-     <Sky/>
-     <DetailDiv/>
+    <div className="flex flex-col h-screen">
+      <div className='h-1/2 bg-sky-200'>
+        <Sky />
+      </div>
+      <div className='h-1/2 bg-black'>
+        <DetailDiv />
+      </div>
     </div>
   )
 }
