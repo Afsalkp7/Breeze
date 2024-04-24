@@ -1,11 +1,12 @@
 import React from 'react'
-// import { CloudFootImage } from './Images'
-// import {CloudFooterImage} from '../assets/images/imageUrls'
+import Day from './Day'
+// import { CloudFooterImage } from './Images'
+// import { footCloud } from '../assets/images/imageUrls'
 export default function DetailDiv() {
   return (
     <div>
-      jw
-      {/* <CloudFootImage url={CloudFooterImage}/> */}
+      <Day />
+      {/* <CloudFooterImage url={footCloud} /> */}
     </div>
   )
 }

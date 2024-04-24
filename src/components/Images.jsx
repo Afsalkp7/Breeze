@@ -19,11 +19,11 @@ export const  SunImage = ({url})=> {
 }
 export const  GirlImage = ({url})=> {
   return (
-        <img className='w-48 absolute left-0 top-56' src={url} />
+        <img className='w-48 absolute left-0 top-60' src={url} />
   )
 }
-export const  CloudFooterImage = ({url})=> {
-  return (
-        <img className='w-48 absolute left-0 top-56' src={url} />
-  )
-}
+// export const  CloudFooterImage = ({url})=> {
+//   return (
+//         <img className='w-48 absolute left-0 top-96' src={url} />
+//   )
+// }

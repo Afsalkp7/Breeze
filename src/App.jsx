@@ -9,7 +9,7 @@ function App() {
       <div className='h-1/2 bg-sky-200'>
         <Sky />
       </div>
-      <div className='h-1/2 bg-black'>
+      <div className='h-1/2 bg-gradient-to-b from-sky-200 to-white'>
         <DetailDiv />
       </div>
     </div>
